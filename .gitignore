@@ -1,0 +1,36 @@
+##NuGet Packages
+*.nupkg
+
+##The packages folder can be ignored cause of Package restore
+**/packages/**
+##Except build
+"**/packages/build/**
+
+*.nuget.props
+*.nuget.targets
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+
+#appsettings
+*appsettings.json
+*appsettings.Development.json
+#banco de dados
+*.sqlite
+#user-specific files
+*.suo
+*.user*.userosscache
+*.sln.docstates
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Xx]64/
+[Xx]86/
+[Bb]uild/
+bld/
+[Bb]in/
+[Oo]bj/
